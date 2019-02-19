@@ -3,6 +3,7 @@ package com.faisal.herukun.listview01;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         p3.setName("Henry");
         p3.setAge(20);
         p3.setPhoto(R.drawable.henry);
+
+        Toast.makeText(getApplicationContext(),"hello",Toast.LENGTH_LONG).show();
 
         ArrayList<Player> playerList = new ArrayList<>();
 
